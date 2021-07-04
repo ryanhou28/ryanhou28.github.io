@@ -1,1 +1,255 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Site Properties -->
+  <title>Ryan Hou</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/awdeorio-favicon.ico">
+  <meta name="description" content="Ryan Hou">
+  <meta name="keywords" content="rlhou, Ryan Hou">
+  <meta name="author" content="Ryan Hou">
+
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Fomantic UI CSS library -->
+  <!-- https://fomantic-ui.com/introduction/getting-started.html#using-a-cdn-provider -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
+
+  <!-- Academic Icons -->
+  <!-- https://jpswalsh.github.io/academicons/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+</head>
+<body>
+
+  <!-- Main page  -->
+  <div class="ui text container">
+    <a
+      class="ui right floated icon button"
+      data-tooltip="LinkedIn"
+      data-position="bottom right"
+      href="https://www.linkedin.com/in/ryanlhou/"
+      target="_blank"
+    >
+      <i class="ui icon linkedin"></i>
+    </a>
+    <a
+      class="ui right floated icon button"
+      data-tooltip="GitHub"
+      data-position="bottom right"
+      href="https://github.com/ryanhou28/"
+      target="_blank"
+    >
+      <i class="github icon"></i>
+    </a>
+    <a
+      class="ui right floated icon button"
+      data-tooltip="Email ryanhou28@gmail.com"
+      data-position="bottom right"
+      href="mailto:ryanhou28@gmail.com"
+      target="_blank"
+    >
+      <i class="ui icon envelope"></i>
+    </a>
+
+    <header>
+      <h1>Ryan Hou 侯宇轩</h1>
+      <p>   
+        <img class="ui left floated rounded small image" alt="Ryan Hou" src="assets/images/front_pic.jpg">
+        Computer science student at the University of Michigan.
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </p>
+    </header>
+    <div class="ui hidden section divider"></div>
+
+
+    <!-- Internal links -->
+    <nav class="ui stackable menu">
+        <a href="#education" class="item">Education</a>
+        <a href="#skills" class="item">Skills</a>
+        <a href="#workExperience" class="item">Work Experience</a>
+        <a href="#projects" class="item">Projects</a>
+        <a href="/assets/files/ryan_resume.pdf" class="item" target="_blank">Resume</a>
+        <a href="#contact" class="ui right item">Contact</a>
+    </nav>
+    <div class="ui hidden section divider"></div>
+
+    <!-- Education section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="ui grid">
+            <div class="left floated nine wide column">
+                <p>
+                    <strong>University of Michigan - Ann Arbor</strong>
+                </p>
+            </div>
+            <div class="right floated four wide column">
+                <p style="text-align:right;">Aug 2020 - May 2024</p>
+            </div>
+        </div>
+        <p>
+            <em>B.S.E in Computer Science</em>
+            <br>
+            Cummulative GPA: 3.97
+            <br>
+            Relevant Coursework: Programming and Intro Data Structures
+        </p>
+
+    </section><!-- /Education -->
+    <div class="ui section divider"></div>
+
+    <!-- Skills section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Programming Languages</h3>
+        <p>C/C++, Python, MATLAB, R</p>
+        <h3>Tools</h3>
+        <p>Git, LaTeX</p>
+        <h3>Operating Systems</h3>
+        <p>MacOS, Windows, Linux</p>
+        <h3>Software</h3>
+        <p>Microsoft Office, Photoshop, Premiere Pro, Lightroom, After Effects, Logic Pro X, Unreal Engine 4, Unity</p>
+        <h3>Languages</h3>
+        <p>English, Chinese</p>
+      </section><!-- /Skills -->
+      <div class="ui section divider"></div>
+
+    <!-- Work Experience section -->
+    <section id="workExperience">
+        <h2>Work Experience</h2>
+        <p></p>
+    </section><!-- /Work Experience -->
+    <div class="ui section divider"></div>
+
+    <!-- Projects section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="ui one stackable cards">
+
+        <a class="ui horizontal card" href="https://github.com/" target="_blank">
+            <div class="image">
+                <img src="assets/images/placeholder.jpg">
+            </div>
+            <div class="content">
+                <div class="header">
+                    Baseball Pitch Track Visualizer
+                </div>
+                <div class="meta">
+                    Python, OpenCV
+                </div>
+                <div class="description">
+                    Detects and record baseball pitch movement in a video by segmenting motion and color 
+                </div>
+                <div class="floating ui icon label">
+                    <i class="icon github"></i>
+                </div>
+            </div>
+        </a><!-- /fluid card -->
+
+        <a class="ui horizontal card" href="https://github.com/" target="_blank">
+            <div class="image">
+                <img src="assets/images/placeholder.jpg">
+            </div>
+            <div class="content">
+              <div class="header">
+                Tic Tac Toe with AI
+              </div>
+              <div class="meta">
+                C++, SFML 
+            </div>
+              <div class="description">
+                A Tic Tac Toe game with GUI that has a computer AI with multiple difficulties. Hardest difficulty implements the minimax algorithm to create an unbeatable AI.
+              </div>
+              <div class="floating ui icon label">
+                <i class="icon github"></i>
+              </div>
+            </div>
+          </a><!-- /fluid card -->
+
+      </div><!-- /stackable cards -->
+    </section><!-- /Projects -->
+    <div class="ui section divider"></div>
+
+    
+  </div><!-- /text container -->
+
+
+  <!-- Footer with contact information -->
+  <footer class="ui inverted vertical footer segment">
+    <section class="ui center aligned container" id="contact">
+      <div class="ui stackable inverted divided grid">
+        <div class="two wide column"></div>
+        <div class="four wide column left aligned">
+          <div class="ui inverted link list">
+            <div class="item">
+              <i class="mail icon"></i>
+              ryanhou28@gmail.com
+            </div>
+            <a class="item" href="https://github.com/ryanhou28/" target="_blank">
+              <i class="github icon"></i>
+              GitHub
+            </a>
+            <a class="item" href="https://www.linkedin.com/in/ryanlhou/" target="_blank">
+              <i class="ui icon linkedin"></i>
+              LinkedIn
+            </a>
+          </div>
+        </div><!-- /column -->
+        <div class="four wide column left aligned">
+          <div class="ui inverted link list">
+            <a class="item" href="https://ryanhou28.wixsite.com/ryanhou" target="_blank">
+              <i class="laptop icon"></i>
+              Hobbies Website
+            </a>
+          </div>
+        </div><!-- /column -->
+        <div class="four wide column left aligned">
+          <div class="ui inverted link list">
+            <div class="item">
+              <table>
+                <tr>
+                  <td><i class="map marked alternate icon"></i></td>
+                  <td>Address Line 1</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Address Line 2</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ann Arbor, MI</td>
+                </tr>
+              </table>
+            </div>
+            <div class="item">
+              <table>
+                <tr>
+                  <td><i class="phone icon"></i></td>
+                  <td>+86 186 1065 7237</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div><!-- /column -->
+        <div class="two wide column"></div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <div class="ui horizontal inverted small divided link list">
+        <div class="item">2021 Ryan Hou</div>
+      </div>
+    </section><!-- /contact -->
+  </footer>
+
+</body>
+
+</html>
