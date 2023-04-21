@@ -1,0 +1,32 @@
+/* CSS */
+/* Style for elements */
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+  h2 {
+    margin-top: auto;
+    margin-bottom: 30px;
+  }
+  p {
+    color: rgb(44, 44, 44);
+  }
+/* Style for custom classes */
+.content{
+    width:1000px;
+	margin:70px auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color:#555;
+	padding:10px 10px 20px 20px;
+	box-shadow:0 30px 50px rgb(170, 170, 170);
+	background:rgb(255, 255, 255);
+}
+.line {
+    clear: both;
+    border-bottom: 2px #eee solid;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
