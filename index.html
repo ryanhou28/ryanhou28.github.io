@@ -58,7 +58,7 @@
         <!--  COMMENT
         <img class="ui left floated rounded small image" alt="Ryan Hou" src="assets/images/front_pic.jpg">
         COMMENT END-->
-        I am a Computer Science student at the University of Michigan, especially interested in Computer Architecture for Robotics and Computer Vision applications.
+        I am an EECS student at the University of Michigan, especially interested in developing domain specific architectures for computer vision and robotics applications.
         <!-- COMMENT
         <br>
         <br>
@@ -74,19 +74,21 @@
     <div class="ui hidden section divider"></div>
     COMMENT END -->
 
+    <div class="ui section divider"></div>
+
     <!-- Internal links -->
-    <nav class="ui stackable menu">
+    <!-- <nav class="ui stackable menu">
         <a href="#education" class="item">Education</a>
         <a href="#skills" class="item">Skills</a>
         <a href="#workExperience" class="item">Work Experience</a>
         <a href="#projects" class="item">Projects</a>
         <a href="/assets/files/ryan_resume.pdf" class="item" target="_blank">Resume</a>
-        <!-- <a href="#extracurriculars" class="item">Extracurriculars</a> -->
+        <a href="#extracurriculars" class="item">Extracurriculars</a>
         <a href="https://ryanhou28.github.io" class="item" target="_blank">Film & Photography</a>
         <a href="#contact" class="ui right item">Contact</a>
-    </nav>
+    </nav> -->
     
-    <br>
+    <!-- <br> -->
 
     <!-- Education section -->
     <section id="education">
@@ -126,127 +128,141 @@
           <p>
               <em>B.S.E in Computer Science</em>
               <br>
-              Cummulative GPA: 3.897/4.000
+              <!-- Cummulative GPA: 3.897/4.000 -->
+              Summa Cum Laude
               <br>
-              <a href="/courses.html">Relevant Coursework: </a> Computer Architecture, Intro Operating Systems, SLAM & Navigation, Computer Vision, Intro Machine Learning, Data Structures & Algorithms
+              <a href="/courses.html">Relevant Coursework: </a> Computer Architecture, Microarchitecture, Intro Operating Systems, SLAM & Navigation, Computer Vision, Intro Machine Learning, Advanced Compilers
           </p>
 
     </section><!-- /Education -->
     <div class="ui section divider"></div>
 
-    <!-- Skills section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <h3>Programming Languages</h3>
-        <p>C/C++, Python, Verilog/SystemVerilog, MATLAB</p>
-        <h3>Technologies</h3>
-        <p>Git, NumPy, OpenCV, PyTorch, ROS, QNX, LaTeX</p>
-        <h3>Tools</h3>
-        <p>Synopsys Verdi, Synopsys Design Compiler, VS Code, Quartus II, ModelSim, Unreal Engine 4, Unity</p>
-        <h3>Languages</h3>
-        <p>English, Chinese</p>
-      </section><!-- /Skills -->
-      <div class="ui section divider"></div>
+    <!-- Research Experience section-->
+    <section id="research">
+      <h2>Research Experience</h2>
+      <div class="ui grid">
+          <div class="left floated nine wide column">
+              <p>
+                  <strong>In-Sensor Computing with Temporal Logic</strong>
+                </p>
+              </div>
+              <div class="right floated four wide column">
+              <p style="text-align:right;">May 2023 - Present</p>
+            </div>
+          </div>
+          <p>
+            <em>University of Michigan - Ann Arbor</em>
+            <br>
+            <!-- work description here -->
+            Advised by Prof. George Tzimpragos
+            <br>
+            <!-- <ul>
+              <li>Working on developing an in-sensor architecture for image feature extraction using temporal codes and race logic</li>
+              <li>Developed an energy-efficient image edge filter and feature extraction model that computes in the time domain</li>
+              <li>Constructed software simulation employing the time domain designs for robot localization</li>
+              <li>Currently investigating the integration of the designs in a 3D-stacked computational CMOS image sensor</li>
+            </ul> -->
+          </p>
+          
+          <div class="ui grid">
+            <div class="left floated nine wide column">
+              <p>
+                <strong>Pulse-Transfer Level Language for Superconducting Electronics</strong>
+              </p>
+            </div>
+            <div class="right floated four wide column">
+              <p style="text-align:right;">Nov 2022 - Apr 2023</p>
+            </div>
+          </div>
+          <p>
+            <em>University of Michigan - Ann Arbor</em>
+            <br>
+            <!-- work description here -->
+            Advised by Prof. George Tzimpragos
+            <br>
+          - Worked on improving PyLSE, a Python embedded pulse-transfer level language for superconductor electronics
+          <br>
+          - Simulated hardware designs that cross the RTL and SFQ device stacks
+          <br>
+          <!-- - Some of the work can be accessed -->
+          <!-- <a href="https://github.com/ryanhou28/PyLSE_Workspace" target="_blank">here</a> -->
+        </p>
+        
+    </section>
 
+    <div class="ui section divider"></div>
+    
     <!-- Work Experience section -->
     <section id="workExperience">
         <h2>Work Experience</h2>
-
+        
           <div class="ui grid">
             <div class="left floated nine wide column">
-                <p>
-                    <strong>Summer Undergraduate Research Experience</strong>
-                </p>
+              <p>
+                <strong>Software Engineering Intern</strong>
+              </p>
             </div>
-            <div class="right floated four wide column">
-                <p style="text-align:right;">May 2023 - Aug 2023</p>
-            </div>
-          </div>
-          <p>
-              <em>University of Michigan - Ann Arbor</em>
-              <br>
-              <!-- work description here -->
-              - Advised by Prof. George Tzimpragos
-              <br>
-              - Researching the design of novel in-sensor computing architectures using temporal logic
-          </p>
-
-          <div class="ui grid">
-            <div class="left floated nine wide column">
-                <p>
-                    <strong>Undergraduate Student Researcher</strong>
-                </p>
-            </div>
-            <div class="right floated four wide column">
-                <p style="text-align:right;">Nov 2022 - Apr 2023</p>
-            </div>
-          </div>
-          <p>
-              <em>University of Michigan - Ann Arbor</em>
-              <br>
-              <!-- work description here -->
-              - Advised by Prof. George Tzimpragos
-              <br>
-              - Researched software embedded domain-specific language for hardware design
-              <br>
-              - Worked on improving PyLSE, a Python embedded pulse-transfer level language for superconductor electronics
-              <br>
-              - Some of the work can be accessed
-              <a href="https://github.com/ryanhou28/PyLSE_Workspace" target="_blank">here</a>
-          </p>
-
-          <div class="ui grid">
-            <div class="left floated nine wide column">
-                <p>
-                    <strong>Software Engineering Intern</strong>
-                  </p>
-                </div>
                 <div class="right floated four wide column">
-                <p style="text-align:right;">May 2022 - Aug 2022</p>
+                  <p style="text-align:right;">May 2022 - Aug 2022</p>
             </div>
           </div>
           <p>
-              <em>Ford Motor Company</em>
-              <br>
-              <!-- work description here -->
-              - Implemented high performance Inter-Process Communication mechanisms on the QNX RTOS using C++ for Ford’s next generation ADAS architecture
-              <br>
-              - Evaluated, compared, and tested the performance of the IPC mechanisms for various use cases, with the fastest mechanism being 4.6x faster than the slowest in average execution time
+            <em>Ford Motor Company</em>
+            <br>
+            <!-- work description here -->
+            ADAS Middleware Team
+            <!-- - Implemented high performance Inter-Process Communication mechanisms on the QNX RTOS using C++ for Ford’s next generation ADAS architecture -->
+            <!-- <br> -->
+            <!-- - Evaluated, compared, and tested the performance of the IPC mechanisms for various use cases, with the fastest mechanism being 4.6x faster than the slowest in average execution time -->
           </p>
           
-
-
-    </section><!-- /Work Experience -->
-    <div class="ui section divider"></div>
-
-    <!-- Projects section -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="ui one stackable cards">
-
-        <a class="ui horizontal card">
-            <div class="content">
+          
+          
+        </section><!-- /Work Experience -->
+        <div class="ui section divider"></div>
+    
+        <!-- Skills section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Programming Languages</h3>
+            <p>C/C++, Python, Verilog/SystemVerilog, MATLAB</p>
+            <h3>Technologies</h3>
+            <p>Git, NumPy, OpenCV, PyTorch, ROS, QNX, LaTeX</p>
+            <h3>Tools</h3>
+            <p>Synopsys Verdi, Synopsys Design Compiler, VCS</p>
+            <h3>Languages</h3>
+            <p>English, Chinese</p>
+          </section><!-- /Skills -->
+          <div class="ui section divider"></div>
+        
+        <!-- Projects section -->
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="ui one stackable cards">
+            
+            <a class="ui horizontal card">
+              <div class="content">
                 <div class="header">
-                    Out-of-Order N-Way Superscalar RISC-V Processor
+                  Out-of-Order N-Way Superscalar RISC-V Processor
                 </div>
                 <div class="meta">
-                    SystemVerilog
+                  SystemVerilog
                 </div>
                 <div class="description">
-                    A synthesizable processor with out-of-order execution, N-Way parameterized Superscalar, Tournament Branch Prediction, and Load-Store Queue with Byte-level Forwarding developed in a group of 6 people. Synthesized at 21ns clock period with a 1.286 average CPI on tested C programs.
+                  Developed a synthesizable processor using a P6-inspired architecture with N-way parameterized superscalar processing, tournament branch prediction, and load-store queue with byte-level forwarding in a group of 6 people
                 </div>
-            </div>
-        </a><!-- /fluid card -->
-
-        <a class="ui horizontal card" href="https://github.com/JCUN23/442-Project" target="_blank">
+              </div>
+            </a><!-- /fluid card -->
+            
+            <a class="ui horizontal card" href="https://github.com/JCUN23/442-Project" target="_blank">
             <div class="content">
-                <div class="header">
+              <div class="header">
                     Visual Object Tracker for Autonomous Vehicles
-                </div>
-                <div class="meta">
+                  </div>
+                  <div class="meta">
                     Python, PyTorch, OpenCV, NumPy
-                </div>
-                <div class="description">
+                  </div>
+                  <div class="description">
                     Object detection and tracking for autonomous vehicles
                 </div>
                 <div class="floating ui icon label">
@@ -255,7 +271,7 @@
             </div>
         </a><!-- /fluid card -->
 
-        <a class="ui horizontal card">
+        <!-- <a class="ui horizontal card">
           <div class="content">
             <div class="header">
               Panorama Image Stitcher
@@ -267,8 +283,8 @@
               Utilized image warping, homography fitting, and the RANSAC algorithm to stitch multiple images of the same scene into a panorama
             </div>
           </div>
-        </a><!-- /fluid card -->
-
+        </a> -->
+<!-- 
         <a class="ui horizontal card" href="https://github.com/ryanhou28/BaseballTracker" target="_blank">
             <div class="image">
                 <img src="assets/images/baseball_project_img.png">
@@ -287,8 +303,8 @@
                     <i class="icon github"></i>
                 </div>
             </div>
-        </a><!-- /fluid card -->
-
+        </a> -->
+<!-- 
         <a class="ui horizontal card" href="https://github.com/ryanhou28/TicTacToe01" target="_blank">
             <div class="image">
                 <img src="assets/images/ttt_project_img.png">
@@ -307,8 +323,8 @@
                 <i class="icon github"></i>
               </div>
             </div>
-          </a><!-- /fluid card -->
-
+          </a> -->
+<!-- 
           <a class="ui horizontal card">
             <div class="content">
               <div class="header">
@@ -321,7 +337,7 @@
                 Programmed an FPGA board to simulate a traffic light controller that follows real-world scenarios by using sequential logic designs with finite-state machines
               </div>
             </div>
-          </a><!-- /fluid card -->
+          </a>
 
           <a class="ui horizontal card">
             <div class="content">
@@ -335,7 +351,7 @@
                 Employed machine learning techniques to develop a program that automatically classifies subjects of Piazza posts
               </div>
             </div>
-          </a><!-- /fluid card -->
+          </a>
 
           <a class="ui horizontal card">
             <div class="content">
@@ -349,7 +365,7 @@
                 Built a web server backend for an office hour queue website
               </div>
             </div>
-          </a><!-- /fluid card -->
+          </a>
 
           <a class="ui horizontal card">
             <div class="content">
@@ -363,7 +379,7 @@
                 Resize images using seam carving algorithm to preserve meaningful content without cropping or scaling
               </div>
             </div>
-          </a><!-- /fluid card -->
+          </a>
 
           <a class="ui horizontal card">
             <div class="image">
@@ -380,7 +396,7 @@
                 A simple top-down action RPG game with combat and abilities.
               </div>
             </div>
-          </a><!-- /fluid card -->
+          </a>
 
           <a class="ui horizontal card">
             <div class="image">
@@ -397,7 +413,7 @@
                 A simple 2D side scroller RPG game.
               </div>
             </div>
-          </a><!-- /fluid card -->
+          </a>
 
           <a class="ui horizontal card" href="https://github.com/ryanhou28/MLBSpinRate" target="_blank">
             <div class="image">
@@ -417,7 +433,7 @@
                 <i class="icon github"></i>
               </div>
             </div>
-          </a><!-- /fluid card -->
+          </a> -->
 
       </div><!-- /stackable cards -->
     </section><!-- /Projects -->
@@ -450,7 +466,7 @@
                   </p>
               </div>
               <div class="right floated four wide column">
-                <p style="text-align:right;">Fall '20 - Winter '22</p>
+                <p style="text-align:right;">Fall '20 - Winter '23</p>
               </div>
             </div>
             <p>
@@ -464,7 +480,7 @@
                     </p>
                   </div>
                   <div class="right floated four wide column">
-                    <p style="text-align:right;">Fall '20 - Winter '22</p>
+                    <p style="text-align:right;">Fall '20 - Winter '23</p>
               </div>
             </div>
             <p>
@@ -487,7 +503,7 @@
                   Awarded to freshmen who rank in the top 5% of the class
                 </p>
                 
-                <div class="ui grid">
+                <!-- <div class="ui grid">
                     <div class="left floated nine wide column">
                       <p>
                             <strong>Best Documentary Award</strong>
@@ -499,7 +515,7 @@
                   </div>
                   <p>
                     <em>Shanghai Student Film Festival</em>
-                  </p>
+                  </p> -->
 
               </section><!-- /Education -->
               <div class="ui section divider"></div>
@@ -511,13 +527,13 @@
       <div class="ui grid">
         <div class="left floated nine wide column">
           <h3>UM - Autonomous Robotic Vehicle Team - Developer for Computer Vision Sub-Team</h3>
-          <p>Use computer vision techniques to develop autonomous robotic vehicle software for the IGVC competition</p>
         </div>
         <div class="right floated four wide column">
-            <p style="text-align:right;">Sep 2021 - Present</p>
+          <p style="text-align:right;">Fall '21 - Winter '22</p>
         </div>
-
-        <div class="left floated nine wide column">
+        <p>Utilized computer vision techniques like Hough transform to develop a lane tracking algorithm for an autonomous robotic vehicle that competes in the IGVC competition</p>
+        
+        <!-- <div class="left floated nine wide column">
           <h3>Assistant Baseball Coach - International School of Beijing</h3>
           <p>Instructed high school baseball players at the varsity level</p>
         </div>
@@ -539,7 +555,7 @@
         </div>
         <div class="right floated four wide column">
             <p style="text-align:right;">Aug 2018 - May 2020</p>
-        </div>
+        </div> -->
     </div>
 
 
@@ -559,7 +575,7 @@
           <div class="ui inverted link list">
             <div class="item">
               <i class="mail icon"></i>
-              ryanhou08@gmail.com
+              rlhou [at] umich [dot] edu
             </div>
             <a class="item" href="https://github.com/ryanhou28/" target="_blank">
               <i class="github icon"></i>
@@ -601,7 +617,7 @@
               <table>
                 <tr>
                   <td><i class="phone icon"></i></td>
-                  <td>() - </td>
+                  <!-- <td>() - </td> -->
                 </tr>
               </table>
             </div>
@@ -611,7 +627,7 @@
       </div>
       <div class="ui inverted section divider"></div>
       <div class="ui horizontal inverted small divided link list">
-        <div class="item">Site Last Updated: 4/21/2023</div>
+        <div class="item">Site Last Updated: 9/26/2023</div>
       </div>
     </section><!-- /contact -->
   </footer>
