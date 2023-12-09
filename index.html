@@ -55,18 +55,15 @@
     <header>
       <h1>Ryan Hou 侯宇轩</h1>
       <p>   
-        <!--  COMMENT
+         <!-- COMMENT
         <img class="ui left floated rounded small image" alt="Ryan Hou" src="assets/images/front_pic.jpg">
-        COMMENT END-->
-        I am an EECS student at the University of Michigan with research interests in computer architectures for robotics and computer vision applications, near/in-sensor computing, and computing with novel devices.
-        <!-- COMMENT
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         COMMENT END -->
+        I am an EECS student at the University of Michigan with research interests in computer architectures for robotics and computer vision applications, in/near-sensor computing, and computing with novel devices.
+      </p>
+
+      <!-- Bold CV link -->
+      <p>
+        <a href="cv.html" target="_blank">CV</a>
       </p>
     </header>
 
@@ -90,60 +87,14 @@
     
     <!-- <br> -->
 
-    <!-- Education section -->
-    <section id="education">
-        <h2>Education</h2>
-          <div class="ui grid">
-              <div class="left floated nine wide column">
-                  <p>
-                      <strong>University of Michigan - Ann Arbor</strong>
-                  </p>
-              </div>
-              <div class="right floated four wide column">
-                  <p style="text-align:right;">Aug 2023 - Apr 2024</p>
-              </div>
-          </div>
-          <p>
-              <em>M.Sc. in Electrical & Computer Engineering</em>
-              <!-- <br> -->
-              <!-- Cummulative GPA: 3.897/4.000 -->
-              <br>
-              Sequential Undergraduate/Graduate Studies
-              <br>
-              Concentration: IC & VLSI
-              <!-- <br> -->
-              <!-- <a href="/courses.html">Relevant Coursework: </a> Microarchitecture -->
-          </p>
-
-          <div class="ui grid">
-              <div class="left floated nine wide column">
-                  <p>
-                      <strong>University of Michigan - Ann Arbor</strong>
-                  </p>
-              </div>
-              <div class="right floated four wide column">
-                  <p style="text-align:right;">Aug 2020 - Apr 2023</p>
-              </div>
-          </div>
-          <p>
-              <em>B.S.E in Computer Science</em>
-              <br>
-              <!-- Cummulative GPA: 3.897/4.000 -->
-              Summa Cum Laude
-              <br>
-            </p>
-          <a href="/courses.html">Relevant Coursework: </a> Computer Architecture, Microarchitecture, Intro Operating Systems, SLAM & Navigation, Computer Vision, Intro Machine Learning, Advanced Compilers, Quantum Computing Systems & Architectures
-
-    </section><!-- /Education -->
-    <div class="ui section divider"></div>
 
     <!-- Research Experience section-->
     <section id="research">
       <h2>Research Experience</h2>
       <div class="ui grid">
-          <div class="left floated nine wide column">
+          <div class="left floated ten wide column">
               <p>
-                  <strong>In-Sensor Computing with Temporal Logic</strong>
+                  <strong>Temporal In-Sensor Computing for Robot Localization</strong>
                 </p>
               </div>
               <div class="right floated four wide column">
@@ -156,29 +107,17 @@
             <!-- work description here -->
             Advised by Prof. George Tzimpragos
             <br>
-            <!-- <ul>
-              <li>Working on developing an in-sensor architecture for image feature extraction using temporal codes and race logic</li>
-              <li>Developed an energy-efficient image edge filter and feature extraction model that computes in the time domain</li>
-              <li>Constructed software simulation employing the time domain designs for robot localization</li>
-              <li>Currently investigating the integration of the designs in a 3D-stacked computational CMOS image sensor</li>
-            </ul> -->
-            - Employing algorithm-hardware co-design to develop an in-sensor computing architecture to accelerate visual localization
-            <br>
-            - Developed an efficient image edge filter and keypoint extraction prototype that leverages temporal logic, in which information is represented as timing delays rather than logic levels
-            <br>
-            - Built a software simulation employing the temporal logic designs on state-of-the-art visual SLAM frameworks
-            <br>
-            - Investigated how CMOS image sensors can directly produce pixel values as temporal codes by eliminating ADC counters, enabling seamless integration of temporal logic computations to the sensor
+            - The high energy cost of data movement from the sensor to the processor prompted a shift towards moving computation closer to the sensor itself. This work focuses on using race logic, which encodes information as timing delays, to enable more energy-efficient computation for in-sensor processing. We find that temporal logic is a natural fit for feature detection and tracking in robot localization, and the use of race logic allows us to simplify the sensor interface of CMOS image sensors.
           </p>
           
           <div class="ui grid">
             <div class="left floated nine wide column">
               <p>
-                <strong>Pulse-Transfer Level Language for Superconducting Electronics</strong>
+                <strong>Superconducting Neural Network Accelerator</strong>
               </p>
             </div>
             <div class="right floated four wide column">
-              <p style="text-align:right;">Nov 2022 - Apr 2023</p>
+              <p style="text-align:right;">Nov 2022 - Present</p>
             </div>
           </div>
           <p>
@@ -187,9 +126,8 @@
             <!-- work description here -->
             Advised by Prof. George Tzimpragos
             <br>
-          - Worked on improving PyLSE, a Python embedded pulse-transfer level language for superconductor electronics
+          - Superconductor electronics have been demonstrated to be a promising alternative to CMOS for building neural network accelerators due to their ultra-fast speed and high energy efficiency. However, the characteristics of SFQ devices presents several architectural limitations, including the need for gate-level clocking and the lack of fast and reliable random access memory. This work aims to leverage newly proposed SFQ logic schemes and technologies, namely xSFQ logic and delay line memories, to design more efficient superconducting neural network accelerators.
           <br>
-          - Simulated hardware designs that cross the RTL and SFQ device stacks
           <br>
           <!-- - Some of the work can be accessed -->
           <!-- <a href="https://github.com/ryanhou28/PyLSE_Workspace" target="_blank">here</a> -->
@@ -199,57 +137,13 @@
 
     <div class="ui section divider"></div>
     
-    <!-- Work Experience section -->
-    <section id="workExperience">
-        <h2>Work Experience</h2>
-        
-          <div class="ui grid">
-            <div class="left floated nine wide column">
-              <p>
-                <strong>Software Engineering Intern</strong>
-              </p>
-            </div>
-                <div class="right floated four wide column">
-                  <p style="text-align:right;">May 2022 - Aug 2022</p>
-            </div>
-          </div>
-          <p>
-            <em>Ford Motor Company</em>
-            <br>
-            <!-- work description here -->
-            ADAS Middleware Team
-            - Implemented high-performance Inter-Process Communication mechanisms on the QNX RTOS using C++ for Ford’s next-generation ADAS architecture
-            <!-- <br> -->
-            <!-- - Evaluated, compared, and tested the performance of the IPC mechanisms for various use cases, with the fastest mechanism being 4.6x faster than the slowest in average execution time -->
-          </p>
-          
-          
-          
-        </section><!-- /Work Experience -->
-        <div class="ui section divider"></div>
-    
-        <!-- Skills section -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <h3>Programming Languages</h3>
-            <p>C/C++, Python, Verilog/SystemVerilog, MATLAB</p>
-            <h3>Technologies</h3>
-            <p>Git, NumPy, OpenCV, PyTorch, LLVM, ROS, QNX, LaTeX</p>
-            <h3>Tools</h3>
-            <p>Synopsys Verdi, Design Compiler, VCS, Quartus II, ModelSim</p>
-            <h3>Languages</h3>
-            <p>English, Chinese</p>
-          </section><!-- /Skills -->
-          <div class="ui section divider"></div>
-
-          
           <!-- Projects section -->
           <section id="projects">
             <h2>Projects</h2>
-
+            <br>
             <div class="ui one stackable cards">
 
-            <a class="ui horizontal card">
+            <a class="ui horizontal card" href="https://github.com/ryanhou28/eecs598-010-Team2" target="_blank">
               <div class="content">
                 <div class="header">
                   Superconducting Feed Forward Neural Network Accelerator
@@ -258,7 +152,11 @@
                 Python, SystemVerilog
               </div>
               <div class="description">
-                Designing a FNN accelerator with xSFQ technology and delay line memories to enable accurate, fast, and scalable quantum readout in the superconducting environment
+                Designed an output-stationary FNN accelerator with xSFQ logic to enable accurate, fast, and scalable quantum
+readout in the superconducting environment
+              </div>
+              <div class="floating ui icon label">
+                <i class="icon github"></i>
               </div>
             </div>
             </a><!-- /fluid card -->
@@ -296,152 +194,8 @@
           
         </div><!-- /stackable cards -->
       </section><!-- /Projects -->
-    <div class="ui section divider"></div>
-
-    <!-- Honors & Awards section -->
-    <section id="awards">
-        <h2>Honors & Awards</h2>
-
-          <div class="ui grid">
-              <div class="left floated nine wide column">
-                  <p>
-                      <strong>James B. Angell Scholar</strong>
-                    </p>
-              </div>
-              <div class="right floated four wide column">
-                  <p style="text-align:right;">Winter 2022</p>
-              </div>
-          </div>
-          <p>
-              <em>University of Michigan - Ann Arbor</em>
-              <br>
-              Awarded to students who achieve an “A” record for consecutive semesters
-          </p>
-          
-          <div class="ui grid">
-            <div class="left floated nine wide column">
-              <p>
-                <strong>Dean's Honors List</strong>
-                  </p>
-              </div>
-              <div class="right floated four wide column">
-                <p style="text-align:right;">Fall '20 - Winter '23</p>
-              </div>
-            </div>
-            <p>
-              <em>University of Michigan - Ann Arbor</em>
-            </p>
-          
-          <div class="ui grid">
-              <div class="left floated nine wide column">
-                <p>
-                      <strong>University Honors</strong>
-                    </p>
-                  </div>
-                  <div class="right floated four wide column">
-                    <p style="text-align:right;">Fall '20 - Winter '23</p>
-              </div>
-            </div>
-            <p>
-              <em>University of Michigan - Ann Arbor</em>
-            </p>
-            
-            <div class="ui grid">
-              <div class="left floated nine wide column">
-                <p>
-                  <strong>William J. Branstrom Freshman Prize</strong>
-                    </p>
-                </div>
-                <div class="right floated four wide column">
-                    <p style="text-align:right;">Fall 2020</p>
-                  </div>
-                </div>
-                <p>
-                  <em>University of Michigan - Ann Arbor</em>
-                  <br>
-                  Awarded to freshmen who rank in the top 5% of the class
-                </p>
-                
-                <!-- <div class="ui grid">
-                    <div class="left floated nine wide column">
-                      <p>
-                            <strong>Best Documentary Award</strong>
-                          </p>
-                        </div>
-                        <div class="right floated four wide column">
-                          <p style="text-align:right;">Apr 2020</p>
-                    </div>
-                  </div>
-                  <p>
-                    <em>Shanghai Student Film Festival</em>
-                  </p> -->
-
-              </section><!-- /Education -->
-              <div class="ui section divider"></div>
-          
-    <!-- Teaching Section -->
-    <section id="teaching">
-      <h2>Teaching Experience</h2>
-      <div class="ui grid">
-        <div class="left floated nine wide column">
-          <p>
-            <strong>Course Development Instructional Aide</strong>
-          </p>
-        </div>
-            <div class="right floated four wide column">
-              <p style="text-align:right;">Aug 2023 - Present</p>
-        </div>
-      </div>
-      <p>
-        <em>EECS 270: Logic Design - University of Michigan</em>
-        <br>
-        <!-- work description here -->
-      </p>
-    </section>
-    <div class="ui section divider"></div>
-          
-    <!-- Extracurriculars section -->
-    <section id="Extracurriculars">
-      <h2>Extracurriculars</h2>
-      <div class="ui grid">
-        <div class="left floated nine wide column">
-          <h3>UM - Autonomous Robotic Vehicle Team - Developer for Computer Vision Sub-Team</h3>
-        </div>
-        <div class="right floated four wide column">
-          <p style="text-align:right;">Fall '21 - Winter '22</p>
-        </div>
-        <p>Utilized computer vision techniques like Hough transform to develop a lane tracking algorithm for an autonomous robotic vehicle that competes in the IGVC competition</p>
-        
-        <!-- <div class="left floated nine wide column">
-          <h3>Assistant Baseball Coach - International School of Beijing</h3>
-          <p>Instructed high school baseball players at the varsity level</p>
-        </div>
-        <div class="right floated four wide column">
-            <p style="text-align:right;">May 2021 - Jul 2021</p>
-        </div>
-
-        <div class="left floated nine wide column">
-          <h3>Varsity Baseball Team Captain</h3>
-          <p>Lead the varsity team and organized practices, workouts, and team events</p>
-        </div>
-        <div class="right floated four wide column">
-            <p style="text-align:right;">Aug 2016 - Oct 2019</p>
-        </div>
-
-        <div class="left floated nine wide column">          
-          <h3>Cinematographer & Editor - Filmism Studios</h3>
-          <p>Filmed and edited various promotional videos for school events and sport tournaments</p>
-        </div>
-        <div class="right floated four wide column">
-            <p style="text-align:right;">Aug 2018 - May 2020</p>
-        </div> -->
-    </div>
-
-
-    </section><!-- /Extracurriculars -->
-    <div class="ui section divider"></div>
-
-    
+    <br>
+    <br>
   </div><!-- /text container -->
 
 
@@ -506,7 +260,7 @@
       </div>
       <div class="ui inverted section divider"></div>
       <div class="ui horizontal inverted small divided link list">
-        <div class="item">Site Last Updated: 10/22/2023</div>
+        <div class="item">Site Last Updated: 12/09/2023</div>
       </div>
     </section><!-- /contact -->
   </footer>

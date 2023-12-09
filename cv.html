@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Site Properties -->
+  <title>Ryan Hou</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/">
+  <meta name="description" content="Ryan Hou">
+  <meta name="keywords" content="rlhou, Ryan Hou">
+  <meta name="author" content="Ryan Hou">
+
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Fomantic UI CSS library -->
+  <!-- https://fomantic-ui.com/introduction/getting-started.html#using-a-cdn-provider -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
+
+</head>
+<body>
+
+  <!-- Main page  -->
+  <div class="ui text container">
+    <a
+      class="ui right floated icon button"
+      data-tooltip="LinkedIn"
+      data-position="bottom right"
+      href="https://www.linkedin.com/in/ryanlhou/"
+      target="_blank"
+    >
+      <i class="ui icon linkedin"></i>
+    </a>
+    <a
+      class="ui right floated icon button"
+      data-tooltip="GitHub"
+      data-position="bottom right"
+      href="https://github.com/ryanhou28/"
+      target="_blank"
+    >
+      <i class="github icon"></i>
+    </a>
+    <a
+      class="ui right floated icon button"
+      data-tooltip="Email rlhou@umich.edu"
+      data-position="bottom right"
+      href="mailto:rlhou@umich.edu"
+      target="_blank"
+    >
+      <i class="ui icon envelope"></i>
+    </a>
+
+    <header>
+      <h1>Ryan Hou 侯宇轩</h1>
+    </header>
+
+    <div class="ui section divider"></div>
+
+    <!-- Internal links -->
+    <!-- <nav class="ui stackable menu">
+        <a href="#education" class="item">Education</a>
+        <a href="#skills" class="item">Skills</a>
+        <a href="#workExperience" class="item">Work Experience</a>
+        <a href="#projects" class="item">Projects</a>
+        <a href="/assets/files/ryan_resume.pdf" class="item" target="_blank">Resume</a>
+        <a href="#extracurriculars" class="item">Extracurriculars</a>
+        <a href="https://ryanhou28.github.io" class="item" target="_blank">Film & Photography</a>
+        <a href="#contact" class="ui right item">Contact</a>
+    </nav> -->
+    
+    <!-- <br> -->
+
+    <!-- Education section -->
+    <section id="education">
+        <h2>Education</h2>
+          <div class="ui grid">
+              <div class="left floated nine wide column">
+                  <p>
+                      <strong>University of Michigan - Ann Arbor</strong>
+                  </p>
+              </div>
+              <div class="right floated four wide column">
+                  <p style="text-align:right;">Aug 2023 - Apr 2024</p>
+              </div>
+          </div>
+          <p>
+              <em>M.Sc. in Electrical & Computer Engineering</em>
+              <!-- <br> -->
+              <!-- Cummulative GPA: 3.897/4.000 -->
+              <br>
+              Sequential Undergraduate/Graduate Studies
+              <br>
+              Concentration: IC & VLSI
+              <!-- <br> -->
+              <!-- <a href="/courses.html">Relevant Coursework: </a> Microarchitecture -->
+          </p>
+
+          <div class="ui grid">
+              <div class="left floated nine wide column">
+                  <p>
+                      <strong>University of Michigan - Ann Arbor</strong>
+                  </p>
+              </div>
+              <div class="right floated four wide column">
+                  <p style="text-align:right;">Aug 2020 - Apr 2023</p>
+              </div>
+          </div>
+          <p>
+              <em>B.S.E in Computer Science</em>
+              <br>
+              <!-- Cummulative GPA: 3.897/4.000 -->
+              Summa Cum Laude
+              <br>
+            </p>
+          <a href="/courses.html">Relevant Coursework: </a> Computer Architecture, Microarchitecture, Intro Operating Systems, SLAM & Navigation, Computer Vision, Intro Machine Learning, Advanced Compilers, Quantum Computing Systems & Architectures
+
+    </section><!-- /Education -->
+    <div class="ui section divider"></div>
+
+    <!-- Research Experience section-->
+    <section id="research">
+      <h2>Research Experience</h2>
+      <div class="ui grid">
+          <div class="left floated nine wide column">
+              <p>
+                  <strong>In-Sensor Computing with Temporal Logic</strong>
+                </p>
+              </div>
+              <div class="right floated four wide column">
+              <p style="text-align:right;">May 2023 - Present</p>
+            </div>
+          </div>
+          <p>
+            <em>University of Michigan - Ann Arbor</em>
+            <br>
+            <!-- work description here -->
+            Advised by Prof. George Tzimpragos
+            <br>
+            <!-- <ul>
+              <li>Working on developing an in-sensor architecture for image feature extraction using temporal codes and race logic</li>
+              <li>Developed an energy-efficient image edge filter and feature extraction model that computes in the time domain</li>
+              <li>Constructed software simulation employing the time domain designs for robot localization</li>
+              <li>Currently investigating the integration of the designs in a 3D-stacked computational CMOS image sensor</li>
+            </ul> -->
+            - Investigating sensor-processor fusion by leveraging a new class of digital temporal codes
+            <br>
+            - Developing co-optimizations across hardware, logic, and algorithms to enable efficient robot visual localization using global shutter sensors
+            <br>
+            - Designed CMOS image sensor pixel architecture to directly produce temporal codes
+            <br>
+            - Built visual-SLAM simulators integrating temporal logic-powered feature extraction and matching
+            <br>
+            - Research paper in preparation for submission to a computer architecture conference in 2024
+          </p>
+          
+          <div class="ui grid">
+            <div class="left floated nine wide column">
+              <p>
+                <strong>Superconducting Neural Network Accelerator</strong>
+              </p>
+            </div>
+            <div class="right floated four wide column">
+              <p style="text-align:right;">Nov 2022 - Present</p>
+            </div>
+          </div>
+          <p>
+            <em>University of Michigan - Ann Arbor</em>
+            <br>
+            <!-- work description here -->
+            Advised by Prof. George Tzimpragos
+            <br>
+          - Designing pipeline-balanced superconducting NN architectures with xSFQ logic and delay line memories
+          <br>
+          - Developed a parser for the pulse-based simulation of xSFQ netlists with PyLSE
+          <br>
+          - Built xSFQ processing elements to perform multiply-accumulate operations
+          <br>
+          - Research paper in preparation for submission to a computer architecture conference in 2024
+          <!-- - Some of the work can be accessed -->
+          <!-- <a href="https://github.com/ryanhou28/PyLSE_Workspace" target="_blank">here</a> -->
+        </p>
+        
+    </section>
+
+    <div class="ui section divider"></div>
+    
+    <!-- Work Experience section -->
+    <section id="workExperience">
+        <h2>Work Experience</h2>
+        
+          <div class="ui grid">
+            <div class="left floated nine wide column">
+              <p>
+                <strong>Software Engineering Intern</strong>
+              </p>
+            </div>
+                <div class="right floated four wide column">
+                  <p style="text-align:right;">May 2022 - Aug 2022</p>
+            </div>
+          </div>
+          <p>
+            <em>Ford Motor Company</em>
+            <br>
+            <!-- work description here -->
+            ADAS Middleware Team
+            - Implemented high-performance Inter-Process Communication mechanisms on the QNX RTOS using C++ for Ford’s next-generation ADAS architecture
+            <!-- <br> -->
+            <!-- - Evaluated, compared, and tested the performance of the IPC mechanisms for various use cases, with the fastest mechanism being 4.6x faster than the slowest in average execution time -->
+          </p>
+          
+          
+          
+        </section><!-- /Work Experience -->
+        <div class="ui section divider"></div>
+    
+        <!-- Skills section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Programming Languages</h3>
+            <p>C/C++, Python, Verilog/SystemVerilog, MATLAB</p>
+            <h3>Technologies</h3>
+            <p>Git, NumPy, OpenCV, PyTorch, LLVM, ROS, QNX, LaTeX</p>
+            <h3>Tools</h3>
+            <p>Synopsys Verdi, Design Compiler, VCS, Quartus II, ModelSim</p>
+            <h3>Languages</h3>
+            <p>English, Chinese</p>
+          </section><!-- /Skills -->
+          <div class="ui section divider"></div>
+
+    <!-- Honors & Awards section -->
+    <section id="awards">
+        <h2>Honors & Awards</h2>
+
+          <div class="ui grid">
+              <div class="left floated nine wide column">
+                  <p>
+                      <strong>James B. Angell Scholar</strong>
+                    </p>
+              </div>
+              <div class="right floated four wide column">
+                  <p style="text-align:right;">Winter 2022</p>
+              </div>
+          </div>
+          <p>
+              <em>University of Michigan - Ann Arbor</em>
+              <br>
+              Awarded to students who achieve an “A” record for consecutive semesters
+          </p>
+          
+          <div class="ui grid">
+            <div class="left floated nine wide column">
+              <p>
+                <strong>Dean's Honors List</strong>
+                  </p>
+              </div>
+              <div class="right floated four wide column">
+                <p style="text-align:right;">Fall '20 - Winter '23</p>
+              </div>
+            </div>
+            <p>
+              <em>University of Michigan - Ann Arbor</em>
+            </p>
+          
+          <div class="ui grid">
+              <div class="left floated nine wide column">
+                <p>
+                      <strong>University Honors</strong>
+                    </p>
+                  </div>
+                  <div class="right floated four wide column">
+                    <p style="text-align:right;">Fall '20 - Winter '23</p>
+              </div>
+            </div>
+            <p>
+              <em>University of Michigan - Ann Arbor</em>
+            </p>
+            
+            <div class="ui grid">
+              <div class="left floated nine wide column">
+                <p>
+                  <strong>William J. Branstrom Freshman Prize</strong>
+                    </p>
+                </div>
+                <div class="right floated four wide column">
+                    <p style="text-align:right;">Fall 2020</p>
+                  </div>
+                </div>
+                <p>
+                  <em>University of Michigan - Ann Arbor</em>
+                  <br>
+                  Awarded to freshmen who rank in the top 5% of the class
+                </p>
+                
+                <!-- <div class="ui grid">
+                    <div class="left floated nine wide column">
+                      <p>
+                            <strong>Best Documentary Award</strong>
+                          </p>
+                        </div>
+                        <div class="right floated four wide column">
+                          <p style="text-align:right;">Apr 2020</p>
+                    </div>
+                  </div>
+                  <p>
+                    <em>Shanghai Student Film Festival</em>
+                  </p> -->
+
+              </section><!-- /Education -->
+              <div class="ui section divider"></div>
+          
+    <!-- Teaching Section -->
+    <section id="teaching">
+      <h2>Teaching Experience</h2>
+      <div class="ui grid">
+        <div class="left floated nine wide column">
+          <p>
+            <strong>Graduate Student Instructor</strong>
+          </p>
+        </div>
+            <div class="right floated four wide column">
+              <p style="text-align:right;">Winter 2024</p>
+        </div>
+      </div>
+      <p>
+        <em>EECS 270: Logic Design - University of Michigan</em>
+        <br>
+        <!-- work description here -->
+      </p>
+      <div class="ui grid">
+        <div class="left floated nine wide column">
+          <p>
+            <strong>Course Development Instructional Aide</strong>
+          </p>
+        </div>
+            <div class="right floated four wide column">
+              <p style="text-align:right;">Aug 2023 - Dec 2023</p>
+        </div>
+      </div>
+      <p>
+        <em>EECS 270: Logic Design - University of Michigan</em>
+        <br>
+        <!-- work description here -->
+      </p>
+    </section>
+    <div class="ui section divider"></div>
+          
+    <!-- Extracurriculars section -->
+    <section id="Extracurriculars">
+      <h2>Extracurriculars</h2>
+      <div class="ui grid">
+
+        <div class="left floated nine wide column">
+          <h3>UM - Autonomous Robotic Vehicle Team - Developer for Computer Vision Sub-Team</h3>
+        </div>
+        <div class="right floated four wide column">
+          <p style="text-align:right;">Fall '21 - Winter '22</p>
+        </div>
+        <p>Utilized computer vision techniques like Hough transform to develop a lane tracking algorithm for an autonomous robotic vehicle that competes in the IGVC competition</p>
+        
+        <div class="left floated nine wide column">
+          <h3>Founder & President - Michigan Rubber Baseball Club</h3>
+        </div>
+        <div class="right floated four wide column">
+          <p style="text-align:right;">Fall 2023 - Present</p>
+        </div>
+        <p>Founded the Michigan Rubber Baseball Club which aims to bring the sport of rubber baseball to the local community</p>
+        
+        <div class="left floated nine wide column">
+          <h3>Assistant Baseball Coach - International School of Beijing</h3>
+        </div>
+        <div class="right floated four wide column">
+          <p style="text-align:right;">Spring/Summer 2021</p>
+        </div>
+        <p>Instructed high school baseball players at the varsity level</p>
+
+        <!-- <div class="left floated nine wide column">
+          <h3>Varsity Baseball Team Captain</h3>
+          <p>Lead the varsity team and organized practices, workouts, and team events</p>
+        </div>
+        <div class="right floated four wide column">
+            <p style="text-align:right;">Aug 2016 - Oct 2019</p>
+        </div> -->
+
+        <!-- <div class="left floated nine wide column">          
+          <h3>Cinematographer & Editor - Filmism Studios</h3>
+          <p>Filmed and edited various promotional videos for school events and sport tournaments</p>
+        </div>
+        <div class="right floated four wide column">
+            <p style="text-align:right;">Aug 2018 - May 2020</p> -->
+        </div>
+    </div>
+
+
+    </section><!-- /Extracurriculars -->
+    <div class="ui section divider"></div>
+
+    
+  </div><!-- /text container -->
+
+
+  <!-- Footer with contact information -->
+  <footer class="ui inverted vertical footer segment">
+    <section class="ui center aligned container" id="contact">
+      <div class="ui stackable inverted divided grid">
+        <div class="two wide column"></div>
+        <div class="four wide column left aligned">
+          <div class="ui inverted link list">
+            <div class="item">
+              <i class="mail icon"></i>
+              rlhou [at] umich [dot] edu
+            </div>
+            <a class="item" href="https://github.com/ryanhou28/" target="_blank">
+              <i class="github icon"></i>
+              GitHub
+            </a>
+            <a class="item" href="https://www.linkedin.com/in/ryanlhou/" target="_blank">
+              <i class="ui icon linkedin"></i>
+              LinkedIn
+            </a>
+          </div>
+        </div><!-- /column -->
+        <div class="four wide column left aligned">
+          <div class="ui inverted link list">
+            <!-- <a class="item" href="https://ryanhou28.wixsite.com/ryanhou" target="_blank"> -->
+              <!-- <i class="laptop icon"></i> -->
+              <!-- Film & Photography Website -->
+            <!-- </a> -->
+          </div>
+        </div><!-- /column -->
+        <div class="four wide column left aligned">
+          <div class="ui inverted link list">
+            <div class="item">
+              <table>
+                <tr>
+                  <td><i class="map marked alternate icon"></i></td>
+                  <td>Ann Arbor, MI</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+            <div class="item">
+              <table>
+                <tr>
+                  <!-- <td><i class="phone icon"></i></td> -->
+                  <!-- <td>() - </td> -->
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div><!-- /column -->
+        <div class="two wide column"></div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <div class="ui horizontal inverted small divided link list">
+        <div class="item">Site Last Updated: 12/09/2023</div>
+      </div>
+    </section><!-- /contact -->
+  </footer>
+
+</body>
+
+</html>
